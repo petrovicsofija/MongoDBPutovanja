@@ -1,0 +1,55 @@
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB_Repository.exe
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB_Repository.pdb
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB.Bson.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB.Driver.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.Form1.resources
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.Properties.Resources.resources
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.exe
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\mongodb\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.pdb
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB_Repository.exe
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB_Repository.pdb
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB.Bson.dll
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB.Driver.dll
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.Form1.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.Properties.Resources.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.exe
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.pdb
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormLetovanje.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormGlavna.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSvaLetovanja.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSvaZimovanja.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormKomentar.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormAdministrator.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormAdminKomentari.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSviSpa.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormEkskurzija.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSpa.resources
+C:\Users\HP\Desktop\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSveEkskurzije.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB_Repository.exe
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB_Repository.pdb
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB.Bson.dll
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\bin\Debug\MongoDB.Driver.dll
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormAdministrator.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormAdminKomentari.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormEkskurzija.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormGlavna.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormKomentar.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormLetovanje.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSpa.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSvaLetovanja.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSvaZimovanja.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSveEkskurzije.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormSviSpa.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.FormZimovanje.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.Properties.Resources.resources
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.exe
+C:\Users\HP\Desktop\Mongo Sve\MongoDB_Repository\MongoDB_Repository\obj\x86\Debug\MongoDB_Repository.pdb

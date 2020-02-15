@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61E84F15-0814-4FCF-A1DD-34EBFC1A5985}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MongoDB_Repository</RootNamespace>
+    <AssemblyName>MongoDB_Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entiteti\Ekskurzija.cs" />
+    <Compile Include="Entiteti\Letovanje.cs" />
+    <Compile Include="Entiteti\Spa.cs" />
+    <Compile Include="Entiteti\Zimovanje.cs" />
+    <Compile Include="FormEkskurzija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEkskurzija.Designer.cs">
+      <DependentUpon>FormEkskurzija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSpa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSpa.Designer.cs">
+      <DependentUpon>FormSpa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSveEkskurzije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSveEkskurzije.Designer.cs">
+      <DependentUpon>FormSveEkskurzije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZimovanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZimovanje.Designer.cs">
+      <DependentUpon>FormZimovanje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdministrator.Designer.cs">
+      <DependentUpon>FormAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdminKomentari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdminKomentari.Designer.cs">
+      <DependentUpon>FormAdminKomentari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGlavna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGlavna.Designer.cs">
+      <DependentUpon>FormGlavna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKomentar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKomentar.Designer.cs">
+      <DependentUpon>FormKomentar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLetovanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLetovanje.Designer.cs">
+      <DependentUpon>FormLetovanje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSvaLetovanja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSvaLetovanja.Designer.cs">
+      <DependentUpon>FormSvaLetovanja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSvaZimovanja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSvaZimovanja.Designer.cs">
+      <DependentUpon>FormSvaZimovanja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSviSpa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSviSpa.Designer.cs">
+      <DependentUpon>FormSviSpa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entiteti\Komentar.cs" />
+    <Compile Include="Entiteti\Putovanje.cs" />
+    <Compile Include="Entiteti\Administrator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAdministrator.resx">
+      <DependentUpon>FormAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdminKomentari.resx">
+      <DependentUpon>FormAdminKomentari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEkskurzija.resx">
+      <DependentUpon>FormEkskurzija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGlavna.resx">
+      <DependentUpon>FormGlavna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKomentar.resx">
+      <DependentUpon>FormKomentar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLetovanje.resx">
+      <DependentUpon>FormLetovanje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSpa.resx">
+      <DependentUpon>FormSpa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSvaLetovanja.resx">
+      <DependentUpon>FormSvaLetovanja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSvaZimovanja.resx">
+      <DependentUpon>FormSvaZimovanja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSveEkskurzije.resx">
+      <DependentUpon>FormSveEkskurzije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSviSpa.resx">
+      <DependentUpon>FormSviSpa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZimovanje.resx">
+      <DependentUpon>FormZimovanje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winter.jpg" />
+    <None Include="Resources\agencia-turismo.jpg" />
+    <None Include="Resources\0a1a-182.jpg" />
+    <None Include="Resources\10064582.jpg" />
+    <Content Include="Resources\eksk.jpg" />
+    <None Include="Resources\wint2.jpg" />
+    <None Include="Resources\spa2.jpg" />
+    <None Include="Resources\eksk3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MR-2980-accesible-tourism1.jpg" />
+    <None Include="Resources\impacto-uso-TIC-en-turismo-810x565.jpg" />
+    <None Include="Resources\industria-turistica-espanola.png" />
+    <Content Include="Resources\wint.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
