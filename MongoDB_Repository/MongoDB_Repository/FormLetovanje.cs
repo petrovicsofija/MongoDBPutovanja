@@ -66,6 +66,7 @@ namespace MongoDB_Repository
             var collectionKomentari = database.GetCollection<Komentar>("komentari");
 
             groupBox1.Controls.Clear();
+            groupBox2.Controls.Clear();
             int i = 0;
             foreach (Komentar k in collectionKomentari.FindAll())
             {
@@ -77,16 +78,21 @@ namespace MongoDB_Repository
                     labels[i].Location = new Point(labels[i].Location.X, labels[i].Location.Y + i * 80);
                     groupBox1.Controls.Add(labels[i]);
 
-                    PictureBox pb = new PictureBox();
-                    pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                    byte[] buffer = k.Slika.ToArray();
-                    MemoryStream memStream = new MemoryStream();
-                    memStream.Write(buffer, 0, buffer.Length);
-                    pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                    pb.Location = new Point(pb.Location.X, pb.Location.Y + i * 80);
-                    pb.Size = new Size(groupBox1.Width, groupBox1.Height / 4);
-                    pb.Image = Image.FromStream(memStream);
-                    groupBox1.Controls.Add(pb);
+
+                    if (k.Slika != null)
+                    {
+                        PictureBox pb = new PictureBox();
+                        pb.SizeMode = PictureBoxSizeMode.StretchImage;
+
+                        byte[] buffer = k.Slika.ToArray();
+                        MemoryStream memStream = new MemoryStream();
+                        memStream.Write(buffer, 0, buffer.Length);
+                        pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                        pb.Location = new Point(pb.Location.X, pb.Location.Y + i * 80);
+                        pb.Size = new Size(groupBox1.Width, groupBox1.Height / 4);
+                        pb.Image = Image.FromStream(memStream);
+                        groupBox1.Controls.Add(pb);
+                    }
 
                     i++;
                 }
@@ -99,16 +105,19 @@ namespace MongoDB_Repository
                     labels[i].Location = new Point(labels[i].Location.X, labels[i].Location.Y + (i - 4) * 80);
                     groupBox2.Controls.Add(labels[i]);
 
-                    PictureBox pb = new PictureBox();
-                    pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                    byte[] buffer = k.Slika.ToArray();
-                    MemoryStream memStream = new MemoryStream();
-                    memStream.Write(buffer, 0, buffer.Length);
-                    pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                    pb.Location = new Point(pb.Location.X, pb.Location.Y + (i - 4) * 80);
-                    pb.Size = new Size(groupBox1.Width, groupBox1.Height / 4);
-                    pb.Image = Image.FromStream(memStream);
-                    groupBox2.Controls.Add(pb);
+                    if (k.Slika != null)
+                    {
+                        PictureBox pb = new PictureBox();
+                        pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                        byte[] buffer = k.Slika.ToArray();
+                        MemoryStream memStream = new MemoryStream();
+                        memStream.Write(buffer, 0, buffer.Length);
+                        pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                        pb.Location = new Point(pb.Location.X, pb.Location.Y + (i - 4) * 80);
+                        pb.Size = new Size(groupBox1.Width, groupBox1.Height / 4);
+                        pb.Image = Image.FromStream(memStream);
+                        groupBox2.Controls.Add(pb);
+                    }
 
                     i++;
                 }

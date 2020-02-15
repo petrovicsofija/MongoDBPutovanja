@@ -54,8 +54,19 @@ namespace MongoDB_Repository
             var db = server.GetDatabase("agencija");
 
             var komentariCollection = db.GetCollection<Komentar>("komentari");
-            Komentar k1 = new Komentar { Tekst = tbTekst.Text, Ocena = Int32.Parse(tbOcena.Text), Slika = UploadSlike(tbSlika.Text) };
-            komentariCollection.Insert(k1);
+            Komentar k1 = null;
+            if (tbSlika.Text == "")
+            {
+                k1 = new Komentar { Tekst = tbTekst.Text, Ocena = Int32.Parse(tbOcena.Text), Slika = null };
+                komentariCollection.Insert(k1);
+            }
+            else
+            {
+                k1 = new Komentar { Tekst = tbTekst.Text, Ocena = Int32.Parse(tbOcena.Text), Slika = UploadSlike(tbSlika.Text) };
+                komentariCollection.Insert(k1);
+            }
+
+
 
             if (tip == 0)
             {

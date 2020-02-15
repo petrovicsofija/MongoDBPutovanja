@@ -75,16 +75,21 @@ namespace MongoDB_Repository
                         labels[i].Location = new Point(labels[i].Location.X, labels[i].Location.Y + i * (groupBox1.Height / 6 + labels[i].Height * 2));
                         groupBox1.Controls.Add(labels[i]);
 
+
                         PictureBox pb = new PictureBox();
                         pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                        byte[] buffer = k.Slika.ToArray();
-                        MemoryStream memStream = new MemoryStream();
-                        memStream.Write(buffer, 0, buffer.Length);
-                        pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                        if (k.Slika != null)
+                        {
+                            byte[] buffer = k.Slika.ToArray();
+                            MemoryStream memStream = new MemoryStream();
+                            memStream.Write(buffer, 0, buffer.Length);
+                            pb.Image = Image.FromStream(memStream);
+                        }
                         pb.Location = new Point(labels[i].Location.X, labels[i].Location.Y + labels[i].Height);
+                        pb.SizeMode = PictureBoxSizeMode.StretchImage;
                         pb.Size = new Size(groupBox1.Width, groupBox1.Height / 6);
-                        pb.Image = Image.FromStream(memStream);
                         groupBox1.Controls.Add(pb);
+
 
                         chbs[i] = new CheckBox();
                         chbs[i].Text = "Ukloni";
@@ -107,13 +112,16 @@ namespace MongoDB_Repository
 
                         PictureBox pb = new PictureBox();
                         pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                        byte[] buffer = k.Slika.ToArray();
-                        MemoryStream memStream = new MemoryStream();
-                        memStream.Write(buffer, 0, buffer.Length);
+                        if (k.Slika != null)
+                        {
+                            byte[] buffer = k.Slika.ToArray();
+                            MemoryStream memStream = new MemoryStream();
+                            memStream.Write(buffer, 0, buffer.Length);
+                            pb.Image = Image.FromStream(memStream);
+                        }
                         pb.SizeMode = PictureBoxSizeMode.StretchImage;
                         pb.Location = new Point(pb.Location.X, pb.Location.Y + (i - 4) * 80);
                         pb.Size = new Size(groupBox1.Width, groupBox1.Height / 6);
-                        pb.Image = Image.FromStream(memStream);
                         groupBox2.Controls.Add(pb);
 
                         chbs[i] = new CheckBox();
@@ -137,13 +145,17 @@ namespace MongoDB_Repository
 
                         PictureBox pb = new PictureBox();
                         pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                        byte[] buffer = k.Slika.ToArray();
-                        MemoryStream memStream = new MemoryStream();
-                        memStream.Write(buffer, 0, buffer.Length);
+                        if (k.Slika != null)
+                        {
+                            byte[] buffer = k.Slika.ToArray();
+                            MemoryStream memStream = new MemoryStream();
+                            memStream.Write(buffer, 0, buffer.Length);
+                            pb.Image = Image.FromStream(memStream);
+
+                        }
                         pb.SizeMode = PictureBoxSizeMode.StretchImage;
                         pb.Location = new Point(pb.Location.X, pb.Location.Y + (i - 8) * 80);
                         pb.Size = new Size(groupBox1.Width, groupBox1.Height / 6);
-                        pb.Image = Image.FromStream(memStream);
                         groupBox2.Controls.Add(pb);
 
                         chbs[i] = new CheckBox();
